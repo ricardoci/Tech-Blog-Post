@@ -9,7 +9,7 @@ STYLES FOR HERO SECTION ON HOMEPAGE
 }
 
 body {
-  background-color: #efd9d1;
+  background-color: #009790;
 }
 .navbar {
   display: flex;
@@ -1285,18 +1285,19 @@ a:hover {
 }
 
 .card {
-  border: 1px solid #1a1a1a;
+  
   margin-bottom: 1rem;
 }
 
 .card .card-header {
   padding: 0.375rem;
-  background-color: #2d3e50;
+  background-color: #493a1c;
   color: #d9e9e8;
 }
 
 .card .card-body {
   padding: 0.375rem;
+  background-color: #eac49e;
 }
 
 .card .card-footer {
@@ -1907,8 +1908,31 @@ label form [type='radio'] {
     align-content: center;
   }
 }
-
-
-
+.tip-form{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.card{
+  width: 50%;
+  margin: auto;
+ 
+}
+.mb-3{
+  border-style: none;
+}
+.card-header{
+  border-radius: 20px 20px 0 0;
+  
+ 
+}
+.card-body{
+  border-radius: 0 0 20px 20px ;
+  
+}
 
 

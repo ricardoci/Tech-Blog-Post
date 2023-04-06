@@ -11,7 +11,7 @@ const createCard = (tip) => {
   const cardHeaderEl = document.createElement('h4');
   cardHeaderEl.classList.add(
     'card-header',
-    'bg-primary',
+    
     'text-light',
     'p-2',
     'm-0'
@@ -20,7 +20,7 @@ const createCard = (tip) => {
 
   // Create card body
   const cardBodyEl = document.createElement('div');
-  cardBodyEl.classList.add('card-body', 'bg-light', 'p-2');
+  cardBodyEl.classList.add('card-body',  'p-2');
   cardBodyEl.innerHTML = `<p>${tip.tip}</p>`;
 
   // Append the header and body to the card element
